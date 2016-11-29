@@ -1,0 +1,161 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*
+ NAV STYLES
+*/
+nav {
+  background-color: #393E4C;
+  margin-top: 0;
+  padding: 16px;
+}
+
+nav ul {
+  width: 60%;
+  margin: 0 auto;
+  padding-left: 0;
+  font-size: 0;
+}
+
+.navLink {
+  display: inline-block;
+  width: calc(20% - 20px);
+  border: 1px solid white;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.navLink:hover {
+  background-color: #49515F;
+}
+
+.lastLink {
+  margin-right: 0;
+}
+
+.navLink a {
+ color: white;
+ display: block;
+ padding: 8px 0;
+ font-size: 18px;
+ text-decoration: none;
+}
+
+/*
+ HEADER STYLES
+*/
+
+header {
+  height: 90vh;
+  background-image: url('../../img/bg-1.jpg');
+  background-size: cover;
+}
+
+header h1 {
+  margin: 0;
+  padding-top: 200px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header h2 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+/*
+ ABOUT STYLES
+*/
+
+.aboutUs {
+  padding: 48px 24px;
+}
+
+.card {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #F2F2F2;
+}
+
+.imgContainer img {
+  width: 100%;
+}
+
+.textContainer {
+  padding: 32px 24px;
+}
+
+.textContainer h3 {
+  font-size: 24px;
+  color: #616161;
+  margin-top: 0;
+}
+
+.textContainer p {
+  color: #616161;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.cardButton {
+  background-color: white;
+  border: 1px solid #E8E8E8;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-transform: capitalize;
+}
+
+/* 
+ FOOTER STYLES
+*/ 
+
+footer h3 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 300;
+  font-style: italic;
+  color: #616161;
+}
+
+footer p {
+  text-align: center;
+  max-width: 500px;
+  color: #616161;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.footerContainer {
+  padding: 32px 0 56px;
+}
+
+.copyrightContainer {
+  border-top: 1px solid #E8E8E8;
+  padding: 24px;
+}
+
+.copyrightContainer a {
+  color: steelblue;
+  text-decoration: none;
+}
